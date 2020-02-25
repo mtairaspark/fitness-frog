@@ -64,6 +64,7 @@ namespace Treehouse.FitnessFrog.Models
         /// The activity ID for the entry. The ID value should map to an ID in the activities collection.
         /// </summary>
         [Display(Name = "Activity")]
+        [Required]
         public int ActivityId { get; set; }
 
         /// <summary>
